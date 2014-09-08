@@ -1,0 +1,42 @@
+Aleksandr Salo
+Data Mining Class
+Fall 2014
+---
+Part I: Frequent item-sets with min support = 30%
+[[3]]  									new_sups
+ [1,] "13Down" "28Down" "ColonCancer"  "0.3"   
+ [2,] "13Down" "59UP"   "ColonCancer"  "0.33"  
+ [3,] "13Down" "72UP"   "ColonCancer"  "0.31"  
+ [4,] "13Down" "82Down" "ColonCancer"  "0.3"   
+ [5,] "13Down" "97Down" "ColonCancer"  "0.31"  
+ [6,] "1UP"    "38Down" "BreastCancer" "0.3"   
+ [7,] "1UP"    "54UP"   "BreastCancer" "0.3"   
+ [8,] "1UP"    "72UP"   "BreastCancer" "0.3"   
+ [9,] "24Down" "88Down" "BreastCancer" "0.32"  
+[10,] "28Down" "38Down" "BreastCancer" "0.3"   
+[11,] "38Down" "52Down" "BreastCancer" "0.3"   
+[12,] "54UP"   "88Down" "BreastCancer" "0.31"  
+[13,] "54UP"   "8UP"    "BreastCancer" "0.3"   
+[14,] "59UP"   "72UP"   "ColonCancer"  "0.33"  
+[15,] "59UP"   "82Down" "ColonCancer"  "0.32"  
+[16,] "59UP"   "96Down" "ColonCancer"  "0.34"  
+[17,] "72UP"   "96Down" "BreastCancer" "0.3"   
+[18,] "80Down" "88Down" "BreastCancer" "0.3"   
+[19,] "80Down" "8UP"    "BreastCancer" "0.3"   
+
+[[4]]									new_sups
+[1,] "13Down" "59UP" "72UP" "ColonCancer" "0.3" 
+
+Part II: Association rules with min confidence = 60%
+[[3]]								  new_sups confidences        
+[1,] "13Down" "28Down" "ColonCancer"  "0.3"    "0.6"              
+[2,] "13Down" "59UP"   "ColonCancer"  "0.33"   "0.611111111111111"
+[3,] "13Down" "97Down" "ColonCancer"  "0.31"   "0.63265306122449" 
+[4,] "1UP"    "54UP"   "BreastCancer" "0.3"    "0.6"              
+[5,] "24Down" "88Down" "BreastCancer" "0.32"   "0.64"             
+[6,] "54UP"   "8UP"    "BreastCancer" "0.3"    "0.612244897959184"
+[7,] "80Down" "88Down" "BreastCancer" "0.3"    "0.612244897959184"
+[8,] "80Down" "8UP"    "BreastCancer" "0.3"    "0.652173913043478"
+
+[[4]]
+[1] "13Down" "59UP" "72UP" "ColonCancer" "0.3" "0.909090909090909"
